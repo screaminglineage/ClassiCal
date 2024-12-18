@@ -1,6 +1,6 @@
 typedef struct {
     char *data;
-    size_t top;
+    int top;
 } CharStack;
 
 // Initializes top of stack to -1

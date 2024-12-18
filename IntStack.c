@@ -1,6 +1,6 @@
 typedef struct {
     int *data;
-    size_t top;
+    int top;
 } IntStack;
 
 // Initializes top of stack to -1
